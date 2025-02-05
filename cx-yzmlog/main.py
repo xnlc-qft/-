@@ -15,7 +15,8 @@ import ddddocr
 
 class CX:
     def __init__(self):
-        self.phonenum = '19838108478'
+        # 在此处输入手机号
+        self.phonenum = ''
         self.route = '5f97531a710da073c78ad237716af1bf'
         self.fid = '464'
         self.ua = UserAgent()
@@ -156,8 +157,7 @@ class CX:
     def get_checksum(self, validate_dict):
         url = 'https://passport2.chaoxing.com/num/phonecode'
         params = {
-            # 在此处输入手机号
-            'phone': '',
+            'phone': self.phonenum,
             'code': '',
             'type': '1',
             'needcode': 'false',
