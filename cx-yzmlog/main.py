@@ -156,7 +156,8 @@ class CX:
     def get_checksum(self, validate_dict):
         url = 'https://passport2.chaoxing.com/num/phonecode'
         params = {
-            'phone': '19838108478',
+            # 在此处输入手机号
+            'phone': '',
             'code': '',
             'type': '1',
             'needcode': 'false',
