@@ -1,6 +1,5 @@
 # File    : main.py
 # Email   : amu155@outlook.com
-# Date    : 2025/1/27 1:10
 # Author  : amu155
 # Soft    : PyCharm
 import time
